@@ -12,12 +12,12 @@ export default defineConfig({
         }),
     ],
     
-    plugins: [
-        laravel(['resources/ts/app.tsx']),
-    ],
-    resolve: {
-        alias: {
-            '@': '/resources/ts',
-        },
-    },
+    // plugins: [
+    //     laravel(['resources/ts/app.tsx']),
+    // ],
+    // resolve: {
+    //     alias: {
+    //         '@': '/resources/ts',
+    //     },
+    // },
 });
